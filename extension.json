@@ -1,0 +1,1 @@
+{"name":"ocds_contract_signatories","desription":"Adds an array of organizationReferences to the contract section OCDS to support explicit declaration of the signatories for a contract."}
