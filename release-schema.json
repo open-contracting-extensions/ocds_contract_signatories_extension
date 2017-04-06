@@ -6,10 +6,6 @@
           "title": "Contract signatories",
           "description": "The signatories to the contract. Each signatory should have an associated entry in the parties section of OCDS.",
           "type": "array",
-          "mergeStrategy": "arrayMergeById",
-          "mergeOptions": {
-            "idRef": "id"
-          },
           "items": {
             "$ref": "#/definitions/OrganizationReference"
           },
