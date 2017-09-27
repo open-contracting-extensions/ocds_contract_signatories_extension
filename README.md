@@ -52,3 +52,7 @@ The following JSON snippet models a PPP contracting process where there is an ad
 Each signatory to the contract should have an associated entry in the ```parties``` section of OCDS.
 
 This extension follows the approach to modelling organizations introduced in OCDS V1.1.
+
+## Issues
+
+Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
