@@ -16,34 +16,34 @@ The following JSON snippet models a PPP contracting process where there is an ad
 
 ```json
 "publicAuthority": {
-	"name": "Ministry of Communications",
-	"id": "GB-GOV-12345678"
+  "name": "Ministry of Communications",
+  "id": "GB-GOV-12345678"
 },
 "awards": [
-	{
-		"preferredBidders": [
-			{
-				"name": "Example Consortium",
-				"id": "GB-COH-00000000"
-			},
-		]
-	},
+  {
+    "preferredBidders": [
+      {
+        "name": "Example Consortium",
+        "id": "GB-COH-00000000"
+      },
+    ]
+  },
 ]
 "contract": {
-	"signatories": [
-		{
-			"name": "Ministry of Communications",
-			"id": "GB-GOV-12345678"
-		},
-		{
-			"name": "Example Consortium",
-			"id": "GB-COH-00000000"
-		},
-		{
-			"name": "Telecommunications UK",
-			"id": "GB-GOV-99999999"
-		}
-	]
+  "signatories": [
+    {
+      "name": "Ministry of Communications",
+      "id": "GB-GOV-12345678"
+    },
+    {
+      "name": "Example Consortium",
+      "id": "GB-COH-00000000"
+    },
+    {
+      "name": "Telecommunications UK",
+      "id": "GB-GOV-99999999"
+    }
+  ]
 }
 ```
 
