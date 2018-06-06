@@ -1,9 +1,9 @@
 {
   "name": {
-    "en": "ocds_contract_signatories"
+    "en": "Signatories"
   },
   "description": {
-    "en": "Adds an array of OrganizationReference's to the contract section OCDS to support explicit declaration of the signatories for a contract."
+    "en": "Adds a signatories array to the contract object."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting/ocds_contract_signatories_extension"
