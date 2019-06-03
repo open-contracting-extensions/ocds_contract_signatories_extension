@@ -3,7 +3,7 @@
     "en": "Signatories"
   },
   "description": {
-    "en": "Adds a signatories array to the contract object."
+    "en": "Adds a signatories array to the contract object. Use when there are additional signatories to the contract, other than the buyer and supplier."
   },
   "documentationUrl": {
     "en": "https://extensions.open-contracting.org/en/extensions/signatories/"
