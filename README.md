@@ -2,9 +2,9 @@
 
 ## Background
 
-In core OCDS the signatories to the contract are not explicitly declared in the `contract` section. Instead the contract signatories are implicitly assumed to be the `buyer` defined at release level (known as the `publicAuthority` in the PPP extension) and the `suppliers` listed in the `award` associated with the contract (known as the `preferredBidders` in the PPP extension).
+In OCDS, the signatories to the contract are not explicitly declared in the `contracts` section. Instead, the signatories are implicitly assumed to be the `buyer` (`publicAuthority` in the PPP extension) and the `suppliers` in the award associated to the contract (`preferredBidders` in the PPP extension).
 
-In some types of contracting process there may be additional signatories to the contract or the signatories to the contract may differ from those specified in `buyer` / `publicAuthority` and `award/suppliers` / `award/preferredBidders`.
+In some types of contracting processes, there can be additional signatories to the contract, or the signatories to the contract can differ from those specified in `buyer` (`publicAuthority`) and `suppliers` (`preferredBidders`). Use this extension only in such circumstances.
 
 ## Extension fields
 
