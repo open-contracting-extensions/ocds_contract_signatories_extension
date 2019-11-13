@@ -26,9 +26,9 @@ The following JSON snippet models a PPP contracting process where there is an ad
         {
           "name": "Example Consortium",
           "id": "GB-COH-00000000"
-        },
+        }
       ]
-    },
+    }
   ],
   "contract": {
     "signatories": [
