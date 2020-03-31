@@ -4,11 +4,13 @@
 
 In OCDS, the signatories to the contract are not explicitly declared in the `contracts` section. Instead, the signatories are implicitly assumed to be the `buyer` (`publicAuthority` in the PPP extension) and the `suppliers` in the award associated to the contract (`preferredBidders` in the PPP extension).
 
-In some types of contracting processes, there can be additional signatories to the contract, or the signatories to the contract can differ from those specified in `buyer` (`publicAuthority`) and `suppliers` (`preferredBidders`). Use this extension only in such circumstances.
+In some types of contracting processes, there can be additional signatories to the contract, or the signatories to the contract can differ from those specified in `buyer` (`publicAuthority`) and `suppliers` (`preferredBidders`). 
 
-## Extension fields
+## Usage
 
-This extension adds a `signatories` property to the `contracts` section. The `signatories` property is an array of `OrganizationReference`'s.
+This extension adds a `signatories` field to the `contracts` section. The `signatories` property is an array of `OrganizationReference`'s.
+
+Use this extension only if the signatories to a contract differ from its related award's `suppliers` and the contracting process' `buyer`. If that is the case, list all signatories to the contract, including the `buyer` and `suppliers`.
 
 ## Example
 
