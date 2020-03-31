@@ -6,6 +6,8 @@ In OCDS, the signatories to the contract are not explicitly declared in the `con
 
 In some types of contracting processes, there can be additional signatories to the contract, or the signatories to the contract can differ from those specified in `buyer` (`publicAuthority`) and `suppliers` (`preferredBidders`). Use this extension only in such circumstances.
 
+When using `contracts.signatories` all signatories should be included, even the `buyer` and `suppliers`. If the `buyer` and `suppliers` are the only signatories for the contract, the `contracts.signatories` block should be omitted.
+
 ## Extension fields
 
 This extension adds a `signatories` property to the `contracts` section. The `signatories` property is an array of `OrganizationReference`'s.
