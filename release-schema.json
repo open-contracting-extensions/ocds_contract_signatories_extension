@@ -6,6 +6,7 @@
           "title": "Contract signatories",
           "description": "The signatories to the contract. Each signatory should have an associated entry in the parties section of OCDS.",
           "type": "array",
+		  "minItems": 2,
           "items": {
             "$ref": "#/definitions/OrganizationReference"
           },
