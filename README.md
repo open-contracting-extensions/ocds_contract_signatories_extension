@@ -65,3 +65,9 @@ This extension follows the approach to modelling organizations introduced in OCD
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
+
+## Changelog
+
+### 2020-04-24
+
+* Add `minProperties`, `minItems` and/or `minLength` properties.
