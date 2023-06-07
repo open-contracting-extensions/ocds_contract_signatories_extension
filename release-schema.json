@@ -4,7 +4,7 @@
       "properties": {
         "signatories": {
           "title": "Contract signatories",
-          "description": "The signatories to the contract. Each signatory should have an associated entry in the parties section of OCDS.",
+          "description": "The signatories to the contract. Each signatory should have a corresponding entry in the `parties` array.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/OrganizationReference"
