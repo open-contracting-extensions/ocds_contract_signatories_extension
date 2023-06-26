@@ -6,9 +6,9 @@ In OCDS, the signatories to a contract are not explicitly declared in the `contr
 
 In some types of contracting processes, there can be additional signatories to the contract, or the signatories to the contract can differ from those specified in `buyer` and `suppliers`.
 
-## Usage
-
 Use this extension **only if** the signatories to a contract differ from its related award's `suppliers` and the contracting process' `buyer`. If that is the case, list all signatories to the contract, including the `buyer` and `suppliers`.
+
+## Guidance
 
 Each signatory should have an associated entry in the `parties` section.
 
