@@ -14,7 +14,7 @@ Each signatory should have an associated entry in the `parties` section.
 
 ## Example
 
-The following JSON snippet models a contracting process where there is an additional signatory to the contract beyond those defined in the `buyer` and `awards.suppliers` fields.
+A contract with a third signatory, in addition to the buyer and supplier:
 
 ```json
 {
